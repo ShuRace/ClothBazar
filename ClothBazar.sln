@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClothBazar.Web", "ClothBazar.Web\ClothBazar.Web.csproj", "{3F364391-439E-4327-B5BA-25D1C88F58C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClothBazar.Entities", "ClothBazar.Entities\ClothBazar.Entities.csproj", "{0637426C-23D9-4B63-BF63-6ECB005B48CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClothBazar.Database", "ClothBazar.Database\ClothBazar.Database.csproj", "{474ACB9E-5945-44C7-9EDB-74CADBE5AA89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{3F364391-439E-4327-B5BA-25D1C88F58C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F364391-439E-4327-B5BA-25D1C88F58C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F364391-439E-4327-B5BA-25D1C88F58C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0637426C-23D9-4B63-BF63-6ECB005B48CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0637426C-23D9-4B63-BF63-6ECB005B48CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0637426C-23D9-4B63-BF63-6ECB005B48CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0637426C-23D9-4B63-BF63-6ECB005B48CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{474ACB9E-5945-44C7-9EDB-74CADBE5AA89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{474ACB9E-5945-44C7-9EDB-74CADBE5AA89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{474ACB9E-5945-44C7-9EDB-74CADBE5AA89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{474ACB9E-5945-44C7-9EDB-74CADBE5AA89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
