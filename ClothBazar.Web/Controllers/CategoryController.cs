@@ -10,7 +10,14 @@ namespace ClothBazar.Web.Controllers
 {
     public class CategoryController : Controller
     {
-        CategoriesService CategoryService = new CategoriesService();
+        CategoriesService categoryService = new CategoriesService();
+        [HttpGet]
+        public ActionResult Index()
+        {
+            var categories = categoryService.GetCategories();
+            return View(categories);
+
+        }
 
         // GET: Category
         [HttpGet]
@@ -21,7 +28,7 @@ namespace ClothBazar.Web.Controllers
         [HttpPost] 
         public ActionResult Create(Category category)
         {
-            CategoryService.SaveCategory(category);
+            categoryService.SaveCategory(category);
 
             return View();
         }

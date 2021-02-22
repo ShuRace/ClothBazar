@@ -10,12 +10,19 @@ namespace ClothBazar.Services
 {
     public class CategoriesService
     {
-        public void SaveCategory(Category category)
+        public List<Category> GetCategories( )
         {
             using (var context=new CBContext())
             {
-                context.Categories.Add(category);
+                return context.Categories.ToList();
 
+            }
+        }
+        public void SaveCategory(Category category)
+        {
+            using (var context = new CBContext())
+            {
+                context.Categories.Add(category);
                 context.SaveChanges();
             }
         }
